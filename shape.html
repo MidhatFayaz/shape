@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            overflow-x: hidden;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .main {
+            border: 1px solid green;
+            width: 1345px;
+
+        }
+
+        .nav {
+            /* border: 2px solid black; */
+            display: grid;
+            grid-template-columns: 350px 756px 234px;
+            position: absolute;
+            width: 1343px;
+            z-index: 100;
+
+
+        }
+
+        .nav div {
+            margin-left: 50px;
+        }
+
+        .center {
+            display: grid;
+            grid-template-columns: 100px 100px 100px 100px 100px 100px;
+            line-height: 37px;
+            font-size: 16px;
+        }
+
+        .btn {
+
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            width: 130px;
+            font-size: 15px;
+            background-color: white;
+            color: rgb(255, 146, 146);
+        }
+
+        .btn:hover {
+            transition: 1s;
+            background-color: rgb(255, 146, 146);
+            color: white;
+            font-size: 14px;
+            cursor: pointer;
+            border: 1px solid rgb(223, 184, 184);
+        }
+
+        .center div a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .main1 {
+            display: grid;
+            position: absolute;
+            grid-template-columns: 644px 700px;
+        }
+
+
+
+        .para1 {
+            color: rgb(112, 108, 108);
+        }
+
+
+
+        .bye {
+            z-index: 1;
+        }
+
+        .main2 {
+            /* border: 2px solid yellow; */
+            position: absolute;
+            top: 137px;
+            width: 600px;
+            height: 303px;
+            padding: 48px 55px;
+            font-size: 30px;
+
+        }
+
+        .bttn {
+            background-color: white;
+            color: rgb(255, 146, 146);
+            padding: 18px;
+            width: 180px;
+            border-radius: 30px;
+            margin-top: 70px;
+            font-size: 15px;
+            border: 1px solid rgb(177, 177, 177);
+            position: absolute;
+            z-index: 3;
+
+        }
+
+        .bttn:hover {
+            color: white;
+            background-color: rgb(255, 146, 146);
+            transition: 1s;
+            border: 1px solid rgb(223, 184, 184);
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .main3 {
+            display: grid;
+            grid-template-columns: 300px 35px 300px 35px 300px;
+            text-align: center;
+            position: absolute;
+            top: 600px;
+            width: 1000px;
+            font-size: 22px;
+            /* border: 2px solid black; */
+        }
+
+        .main3 div {
+            border-bottom: 2px solid rgb(184, 178, 178);
+        }
+
+        .main3 :nth-of-type(2) {
+            visibility: hidden;
+        }
+
+        .main3 :nth-of-type(4) {
+            visibility: hidden;
+        }
+
+        .para2 {
+            /* border: 1px solid red; */
+            position: absolute;
+            top: 730px;
+            font-size: 28px;
+            height: 176px;
+            width: 1200px;
+            text-align: center;
+            align-items: center;
+            font-weight: bold;
+
+        }
+
+        .pic1 {
+            display: grid;
+            grid-template-columns: 672px 672px;
+            margin-top: 909px;
+            font-size: 20px;
+           
+        }
+
+        .pic1 div img {
+            width: 400px;
+            margin-left: 100px;
+        }
+
+        .pic1 div h2 {
+            margin-left: 100px;
+        }
+
+        .pp {
+            margin-left: 100px;
+            color: rgb(156, 150, 150);
+        }
+
+        .google {
+            display: grid;
+            grid-template-columns: 100px;
+            /* border: 2px solid blue; */
+        }
+
+        .google img {
+            height: 90px;
+            width: 150px;
+            margin-left: 40px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="nav">
+            <div>
+                <h1>Shape.</h1>
+            </div>
+            <div class="center">
+                <div><a href="">Work</a></div>
+                <div><a href="">Services</a></div>
+                <div><a href="">About</a></div>
+                <div><a href="">Method</a></div>
+                <div><a href="">Blog</a></div>
+                <div><a href="">Contact&nbsp;Us</a></div>
+            </div>
+            <div><button class="btn">Start a project</button></div>
+        </div>
+        <div class="main1">
+            <div class="bye"></div>
+            <div class="img"><img src="image.webp" alt="" width="700px" height="900px"> </div>
+        </div>
+
+        <div class="main2">
+            <h1>Web Design Agency</h1>
+            <h1>In Manchestor</h1>
+            <p class="para1">Working with brands all over the world</p>
+            <button class="bttn">
+                <i class="fa-solid fa-play"></i>&nbsp;&nbsp;play&nbsp;a&nbsp;showreel</button>
+        </div>
+        <div class="main3">
+            <div>Web Design Manchester</div>
+            <div>hy</div>
+            <div>Branding Agency</div>
+            <div>hy</div>
+            <div>Craft CMS</div>
+        </div>
+        <div class="para2">
+            <p>An independent web design & branding agency in Manchester</p>
+            <p>setup in 2010 who care, build relationships, have industry</p>
+
+            <p> experience, and win awards.</p>
+        </div>
+        <div class="pic1">
+            <div><img
+                    src="https://d6f6d0kpz0gyr.cloudfront.net/uploads/transforms/3ccf0bd05b6ff87c7be86ece38a61dee/290065/This-is-digital-LOW-RES-1_6c0c164bd2b597ee32b68b8b5755bd2e.webp"
+                    alt="" height="400px">
+                <h2>This is Digital</h2>
+                <p class="pp">
+                    Complete brand overhaul for a digital marketing agency</p>
+            </div>
+            <div><img
+                    src="https://d6f6d0kpz0gyr.cloudfront.net/uploads/transforms/7050472bb2f8185e48caaa5769e9e753/411084/natterjack-thumbnail_6c0c164bd2b597ee32b68b8b5755bd2e.webp"
+                    alt="" height="550px">
+                <h2>Natterjack</h2>
+                <p class="pp">
+                    overhauling a people-first marketting agency</p>
+            </div>
+        </div>
+        <div class="google">
+            <img src="https://d6f6d0kpz0gyr.cloudfront.net/uploads/transforms/bc9e33244d2d8a7bebbefa89bb319b9f/399028/Google-review-53-reviews_9d774b89831857b4dfc965837c0ae6fd.webp"
+                alt="">
+        </div>
+    </div>
+</body>
+
+</html>
